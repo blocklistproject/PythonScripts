@@ -1,0 +1,16 @@
+#This is a file for testing the python script
+
+domain.url
+domain.url2
+domain.url3
+domain.url
+domain.url3
+domain.url1
+domain.url8
+domain.url6
+domain.url7
+domain.url3
+domain.url2
+domain.url6
+
+#When you run this as your in file you will see how the python script works
