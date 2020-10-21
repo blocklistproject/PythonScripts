@@ -9,8 +9,8 @@ def read_files(files: Generator[str, None, None]) -> str:
         # Skip output file
         if f != OUTPUT_FILE:
             for line in open(f, 'r'):
-                # Skip comments
-                if line[0] != '#':
+                # Skip comments and empty lines
+                if line[0] not in ['#', '\n']:
                     yield line
 
 
